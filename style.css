@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
+    color: #333;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-top: 20px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-top: 40px;
+    color: #444;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .slideshow-container {
+    margin-top: 20px;
+    position: relative;
+    height: 300px;
+  }
+  
+  .slide {
+    width: 80%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 1s ease;
+  }
+  
+  canvas {
+    margin-top: 10px;
+    border: 2px solid #444;
+  }
+  
+  .game-message {
+    font-size: 1.2rem;
+    margin-top: 20 px;
+    color: #444;
+  }
+  
